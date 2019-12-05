@@ -87,6 +87,57 @@
     </div>
     <div id="copyright"></div>          
   </body>
+  <div class="galleries" id="gallery-close">
+	<input name="input-gallery" id="input-gallery-null" type="radio" onclick="location.href='#gallery-close';" checked="checked" />
+	<input name="input-gallery" id="input-gallery-1" type="radio" onclick="location.href='#gallery-open';" />
+	<input name="input-gallery" id="input-gallery-2" type="radio" onclick="location.href='#gallery-open';" />
+	<input name="input-gallery" id="input-gallery-3" type="radio" onclick="location.href='#gallery-open';" />
+	<input name="input-gallery" id="input-gallery-4" type="radio" onclick="location.href='#gallery-open';" />
+	
+	<label for="input-gallery-1" class="gallery-1">
+		<p>Pure CSS</p>				
+	</label><label for="input-gallery-2" class="gallery-2">
+		<p>Pure CSS</p>
+	</label><label for="input-gallery-3" class="gallery-3">
+		<p>Pure CSS</p>
+	</label><label for="input-gallery-4" class="gallery-4">
+		<p>Pure CSS</p>
+	</label>
+
+	<ul class="gallery" id="gallery-open">
+		<li class="gallery-1">
+			<label for="input-gallery-null" class="close-gallery"></label>
+			<h1>Pure CSS</h1>
+		</li>
+		<li class="gallery-2">
+			<label for="input-gallery-null" class="close-gallery"></label>
+			<h1>Pure CSS</h1>
+		</li>
+		<li class="gallery-3">
+			<label for="input-gallery-null" class="close-gallery"></label>
+			<h1>Pure CSS</h1>
+		</li>
+		<li class="gallery-4">
+			<label for="input-gallery-null" class="close-gallery"></label>
+			<h1>Pure CSS</h1>
+		</li>					
+	</ul>
+</div><!-- galleries -->
+<div class="footer">
+  <p>
+    <span>Pure CSS Gallery Open & Close</span>
+    <span>by <a href="https://codepen.io/panikaro/#" target="_blank">PaniKaro</a></span>
+  </p>
+  <p>
+    <span>Works on Firefox, Chrome, IE and more.</span>
+    <span>Include input, label.</span>
+    <span>No more JavaScript ever again.</span>
+    <span>100% clean.</span>
+  </p>
+  <p>
+    <span>Version 1.0</span>
+  </p>
+</div><!-- footer -->
   <script language="JavaScript">
         <!--
         function y2k(number) { return (number < 1000) ? number + 1900 : number; }
