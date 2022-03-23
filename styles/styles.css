@@ -12,7 +12,7 @@ body {
   align-items: center;
   display: flex;
   flex-direction: column;
-  width: 940px;
+  width: 956px;
   box-sizing: border-box;
   margin: 0 auto 0 auto;
   padding: 1em 0;
@@ -100,7 +100,7 @@ p {
   border: 1px solid;
   border-color: ghostwhite;
   transition: all 0.5s;
-  height: 260px;
+  width: 260px;
   margin: 0 25px;
 }
 
